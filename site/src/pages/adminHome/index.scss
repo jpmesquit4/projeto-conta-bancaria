@@ -1,0 +1,23 @@
+.pagina-AdminHome {
+    display: flex;
+    flex-direction: row;
+
+    .right {
+        width: 70%;
+
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            background-color: #222;
+            height: 15vh;
+            padding: 0 50px;
+            
+            h1 {
+                color: white;
+                font-family: 'League spartan';
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}

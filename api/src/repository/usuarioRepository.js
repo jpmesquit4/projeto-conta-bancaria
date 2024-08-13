@@ -49,7 +49,8 @@ export async function inserirCliente(usuario) {
 
 export async function listarSaldoPorId(id) {
   let comando = `
-  select  vl_saldo
+  select  vl_saldo as saldo
+          id_usuario as id
   from    tb_usuario
   where   id_usuario = ?
   ` 

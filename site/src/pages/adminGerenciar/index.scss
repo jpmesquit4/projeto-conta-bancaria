@@ -1,0 +1,91 @@
+.pagina-AdminFerenciar {
+    display: flex;
+    flex-direction: row;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #222;
+        width: 30%;
+        height: 100vh;
+
+        .buttons {
+            padding-top: 150px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            button {
+                border: none;
+                background-color: white;
+                outline: none;
+                padding: 20px 70px;
+                border-radius: 50px;
+
+                font-family: 'League Spartan';
+                font-weight: 500;
+                color: #222;
+                font-size: 18px;
+                text-transform: uppercase;
+                transition: 0.3s;
+                border: 2px solid transparent;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: #222;
+                color: white;
+                border: 2px solid white;
+                transform: scale(1.04);
+            }
+
+            button:active {
+                cursor: pointer;
+                background-color:#000;
+                color: white;
+                border: 2px solid white;
+                transform: scale(1);
+            }
+
+        }
+        
+
+        .cabecalho {
+            text-align: center;
+            padding: 30px;
+
+            h1 {
+                
+                font-family: 'League Spartan';
+                font-weight: 700;
+                color: white;
+                font-size: 52px;
+             
+                >span {
+                    color: #4290A1;
+                }
+            }
+
+            
+        }
+    }
+    .right {
+        width: 70%;
+
+        .cabecalho {
+            display: flex;
+            align-items: center;
+            background-color: #222;
+            height: 15vh;
+            padding: 0 50px;
+            
+            h1 {
+                color: white;
+                font-family: 'League spartan';
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}
