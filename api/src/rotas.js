@@ -1,7 +1,9 @@
 import express from 'express';
 
-//import filmeController from './controller/filmeController.js'
+import usuarioController from './controller/usuarioController.js';
+import adminController from './controller/adminController.js';
 
 export default function adicionarRotas(servidor) {
-  //servidor.use(filmeController);
+  servidor.use(usuarioController);
+  servidor.use(adminController);
 }

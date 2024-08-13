@@ -6,8 +6,6 @@ import cors from 'cors';
 
 import adicionarRotas from './rotas.js';
 
-// import './repository/connection.js'
-
 const servidor = express();
 servidor.use(cors());
 servidor.use(express.json());
